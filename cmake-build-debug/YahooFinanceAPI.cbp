@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="YahooFinanceAPI"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="YahooFinanceAPI">
+				<Option output="D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/YahooFinanceAPI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Coding/Clion Projects/YahooFinanceAPI/include"/>
+					<Add directory="D:/Coding/Clion Projects/YahooFinanceAPI/./curl-7.75.0-win64-mingw/include"/>
+					<Add directory="d:\coding\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="d:\coding\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\coding\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="d:\coding\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="d:\coding\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="d:\coding\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 YahooFinanceAPI"/>
+					<CompileFile command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="YahooFinanceAPI/fast">
+				<Option output="D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/YahooFinanceAPI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Coding/Clion Projects/YahooFinanceAPI/include"/>
+					<Add directory="D:/Coding/Clion Projects/YahooFinanceAPI/./curl-7.75.0-win64-mingw/include"/>
+					<Add directory="d:\coding\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="d:\coding\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\coding\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="d:\coding\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="d:\coding\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="d:\coding\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 YahooFinanceAPI/fast"/>
+					<CompileFile command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Coding/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/Clion Projects/YahooFinanceAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Coding/Clion Projects/YahooFinanceAPI">
+			<Option target="YahooFinanceAPI"/>
+		</Unit>
+		<Unit filename="D:/Coding/Clion Projects/YahooFinanceAPI/include/Date.h">
+			<Option target="YahooFinanceAPI"/>
+		</Unit>
+		<Unit filename="D:/Coding/Clion Projects/YahooFinanceAPI/include/TickerDL.h">
+			<Option target="YahooFinanceAPI"/>
+		</Unit>
+		<Unit filename="D:/Coding/Clion Projects/YahooFinanceAPI/src/Date.cpp">
+			<Option target="YahooFinanceAPI"/>
+		</Unit>
+		<Unit filename="D:/Coding/Clion Projects/YahooFinanceAPI/src/TickerDL.cpp">
+			<Option target="YahooFinanceAPI"/>
+		</Unit>
+		<Unit filename="D:/Coding/Clion Projects/YahooFinanceAPI/src/main.cpp">
+			<Option target="YahooFinanceAPI"/>
+		</Unit>
+		<Unit filename="D:/Coding/Clion Projects/YahooFinanceAPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
